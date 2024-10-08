@@ -1,0 +1,58 @@
+body{
+    background-color: #f2f4f5;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #9013fe;
+    display: block;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+    /*Nota: o box-shadow cria uma sombra no elemento em que foi introduzido; */
+}
+
+main{
+    width: 1000px;
+    display: table;
+    /* Nota: o display: table; faz com que a altura do elemento se adapte de acordo com a quantidade de elementos nele; */
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.box-container{
+    width: 300px;
+    display: table;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    float: left;
+    /* Nota: o float faz o elemento flutuar na tela (esquerda ou direita); */
+}
+
+.box{ 
+    width: 100%;
+    height: 200px;
+    display: block;
+    /* Nota: o display: block; faz com que a altura do elemento seja fixa, por essa ela precisa dessa altura definida; */
+    background-color: #80e817;
+    border-radius: 10px;
+    border: solid 4px #9013fe;
+    box-sizing: border-box; 
+    /* Nota: o box-sizing: border-box; faz com a espessura da borda do elemento seja definida internamente e não do lado de fora; */
+}
+
+.btn{
+    width: 100%;
+    height: 45px;
+    display: block;
+    border-radius: 4px;
+    background-color: #9013fe;
+    margin-top: 25px;
+    float: left;
+}
